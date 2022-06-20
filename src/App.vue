@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <TitlePage/>
+    <HeroPage/>
   </div>
 </template>
 
 <script>
-import TitlePage from '@/components/TitlePage.vue'
+import TitlePage from '@/components/TitlePage.vue';
+import HeroPage from '@/components/HeroPage.vue';
 
 export default {
   name: 'App',
   components: {
-    TitlePage
+    TitlePage,
+    HeroPage
   }
 }
 </script>
@@ -22,6 +25,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  // margin-top: 60px;
 }
 </style>
